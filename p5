@@ -1,0 +1,76 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="WebApplication1.WebForm1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        .auto-style1 {
+            width: 217px;
+        }
+        .auto-style2 {
+            width: 216px;
+        }
+        .auto-style3 {
+            width: 217px;
+            height: 26px;
+        }
+        .auto-style4 {
+            height: 26px;
+        }
+        .auto-style5 {
+            width: 216px;
+            height: 23px;
+        }
+        .auto-style6 {
+            height: 23px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table style="width:100%;">
+            <tr>
+                <td class="auto-style1">REGISTRATION</td>
+                <td>
+                    &nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style3">Username</td>
+                <td class="auto-style4">
+                    <input id="Text1" type="text" /></td>
+                <td class="auto-style4"></td>
+            </tr>
+            <tr>
+                <td class="auto-style1">Age</td>
+                <td>
+                    <input id="Text3" type="text" /></td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+        <table style="width:100%;">
+            <tr>
+                <td class="auto-style2">Mailid</td>
+                <td>
+                    <input id="Text4" type="text" /></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style2">Password</td>
+                <td>
+                    <input id="Text5" type="Password" /></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style5">Re-type password</td>
+                <td class="auto-style6">
+                    <input id="Text6" type="Password" /></td>
+                <td class="auto-style6"></td>
+            </tr>
+        </table>
+        <asp:Button ID="Button1" runat="server" Text="Button" />
+    </form>
+</body>
+</html>
